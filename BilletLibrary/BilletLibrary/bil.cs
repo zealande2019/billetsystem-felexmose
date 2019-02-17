@@ -13,8 +13,7 @@ namespace BilletLibrary
         /// <returns></returns>
         public static decimal Pris()
         {
-            decimal pris = 240;
-            return pris;
+            return 240;
         }
 
         /// <summary>

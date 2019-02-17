@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilletLibrary", "BilletLibr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestBilClass", "UnitTestBilClass\UnitTestBilClass.csproj", "{E9ED58BB-E1AF-4FA0-9F0F-25B4B02CC696}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMCClass", "UnitTestMCClass\UnitTestMCClass.csproj", "{EB47833E-36A0-4DE1-9C95-3D3CD41B2708}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E9ED58BB-E1AF-4FA0-9F0F-25B4B02CC696}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9ED58BB-E1AF-4FA0-9F0F-25B4B02CC696}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9ED58BB-E1AF-4FA0-9F0F-25B4B02CC696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB47833E-36A0-4DE1-9C95-3D3CD41B2708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB47833E-36A0-4DE1-9C95-3D3CD41B2708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB47833E-36A0-4DE1-9C95-3D3CD41B2708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB47833E-36A0-4DE1-9C95-3D3CD41B2708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
