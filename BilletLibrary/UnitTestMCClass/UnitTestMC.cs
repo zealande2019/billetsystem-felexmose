@@ -1,3 +1,4 @@
+using BilletLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestMCClass
@@ -9,10 +10,10 @@ namespace UnitTestMCClass
         public void TestMethodPris()
         {
             //arrange
-            decimal pris;
+            MC myMC = new MC();
 
             //act
-            pris = BilletLibrary.MC.Pris();
+            decimal pris = myMC.Pris();
 
             //assert
             Assert.AreEqual(125, pris);
@@ -22,10 +23,10 @@ namespace UnitTestMCClass
         public void TestMethodKøretøj()
         {
             //arrange
-            string køretøj;
+            MC myMc = new MC();
 
             //act
-            køretøj = BilletLibrary.MC.køretøj();
+            string køretøj = myMc.køretøj();
 
             //assert
             Assert.AreEqual("MC", køretøj);

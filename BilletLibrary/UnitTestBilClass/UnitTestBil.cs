@@ -1,3 +1,4 @@
+using BilletLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestBilClass
@@ -9,10 +10,10 @@ namespace UnitTestBilClass
         public void TestMethodPris()
         {
             //arrange
-            decimal pris;
+            bil mycar = new bil() ;
 
             //act
-            pris = BilletLibrary.Bil.Pris();
+            decimal pris = mycar.Pris();
 
             //assert
             Assert.AreEqual(240,pris);
@@ -22,10 +23,10 @@ namespace UnitTestBilClass
         public void TestMethodKøretøj()
         {
             //arrange
-            string word;
+            bil mycar = new bil();
 
             //act
-            word = BilletLibrary.Bil.køretøj();
+            string word = mycar.køretøj();
 
             //assert
             Assert.AreEqual("Bil", word);
