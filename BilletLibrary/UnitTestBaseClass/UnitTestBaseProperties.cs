@@ -12,7 +12,8 @@ namespace UnitTestBaseClass
         public void TestNummerplade()
         {
             //arrange
-            bil myCar = new bil();
+            bil myCar = new bil(false);
+          
 
             //acts
             myCar.Nummerplade = "gftrhdjer";

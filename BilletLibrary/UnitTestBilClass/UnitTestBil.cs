@@ -1,5 +1,6 @@
 using BilletLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 
 namespace UnitTestBilClass
 {
@@ -10,7 +11,8 @@ namespace UnitTestBilClass
         public void TestMethodPris()
         {
             //arrange
-            bil mycar = new bil() ;
+            Boolean brobiz = false;
+            bil mycar = new bil(brobiz) ;
 
             //act
             decimal pris = mycar.Pris();
@@ -23,7 +25,8 @@ namespace UnitTestBilClass
         public void TestMethodKøretøj()
         {
             //arrange
-            bil mycar = new bil();
+            Boolean brobiz = false;
+            bil mycar = new bil(brobiz);
 
             //act
             string word = mycar.køretøj();

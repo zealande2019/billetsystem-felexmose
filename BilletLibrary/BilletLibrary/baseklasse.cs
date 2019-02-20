@@ -24,6 +24,7 @@ namespace BilletLibrary
         }
 
         protected DateTime dato;
+        public Boolean broBizz;
 
         public abstract decimal Pris();
 
