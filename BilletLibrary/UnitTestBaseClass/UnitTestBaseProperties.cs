@@ -1,5 +1,6 @@
 using BilletLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 
 namespace UnitTestBaseClass
 {
@@ -7,17 +8,19 @@ namespace UnitTestBaseClass
     public class UnitTestBaseProperties
     {
         [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
         public void TestNummerplade()
         {
             //arrange
             bil myCar = new bil();
 
             //acts
-            myCar.Nummerplade = "gftrhdjer";                              
-            
+            myCar.Nummerplade = "gftrhdjer";
+
             //asserts
             // check wether exeption is thrown.
-
+            //Assert.ThrowsException(() => myCar.Nummerplade = "gftrhdjer");
+            Assert.Fail();
         }
     }
 }
