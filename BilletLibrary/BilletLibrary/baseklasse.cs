@@ -4,12 +4,16 @@ using System.Text;
 
 namespace BilletLibrary
 {
+    /// <summary>
+    /// base klasse for bil og Mc.
+    /// </summary>
     public abstract class baseklasse
     {
+
         protected string numberplade;
 
         /// <summary>
-        /// nummerplade, skal ikke være længere end 7 tegn.
+        /// En property der sørger for at nummerpladen ikke er længere end 7 tegn.
         /// </summary>
         public string Nummerplade
         {
@@ -22,9 +26,16 @@ namespace BilletLibrary
                     throw new ArgumentException($"Nummerplade må ikke være længer end 7 tegn, du skrev {value.Length} tegn");
             }
         }
-
+        /// <summary>
+        /// property til at indholde dato og tidspunkt for en givne transaction.
+        /// </summary>
         protected DateTime dato;
+
+        /// <summary>
+        /// property der siger noget om, en givne køretøj har bro bizz eller ej.
+        /// </summary>
         public Boolean broBizz;
+
 
         public abstract decimal Pris();
 

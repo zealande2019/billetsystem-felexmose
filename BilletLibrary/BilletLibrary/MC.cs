@@ -9,6 +9,10 @@ namespace BilletLibrary
         //public string Nummerplade;
         //public DateTime dato;
 
+            /// <summary>
+            /// opretter et MC objekt med info om hvorvidt brobizz haves.
+            /// </summary>
+            /// <param name="broBizz"></param>
             public MC(Boolean broBizz)
         {
             this.broBizz = broBizz;
@@ -29,7 +33,7 @@ namespace BilletLibrary
         }
 
         /// <summary>
-        /// returns the type of vehichel
+        /// returns the type of vehichle.
         /// </summary>
         /// <returns></returns>
         public override string køretøj()

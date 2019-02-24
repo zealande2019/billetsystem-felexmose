@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:BilletLibrary.baseklasse">
+            <summary>
+            base klasse for bil og Mc.
+            </summary>
+        </member>
+        <member name="P:BilletLibrary.baseklasse.Nummerplade">
+            <summary>
+            En property der sørger for at nummerpladen ikke er længere end 7 tegn.
+            </summary>
+        </member>
+        <member name="F:BilletLibrary.baseklasse.dato">
+            <summary>
+            property til at indholde dato og tidspunkt for en givne transaction.
+            </summary>
+        </member>
+        <member name="F:BilletLibrary.baseklasse.broBizz">
+            <summary>
+            property der siger noget om, en givne køretøj har bro bizz eller ej.
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.bil.#ctor(System.Boolean)">
+            <summary>
+            opretter en bil objekt med info om hvorvidt brobizz haves.
+            </summary>
+            <param name="broBizz"></param>
+        </member>
+        <member name="M:BilletLibrary.bil.Pris">
+            <summary>
+            returns the amount to pay.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.bil.køretøj">
+            <summary>
+            returns the type of vehichle.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.#ctor(System.Boolean)">
+            <summary>
+            opretter et MC objekt med info om hvorvidt brobizz haves.
+            </summary>
+            <param name="broBizz"></param>
+        </member>
+        <member name="M:BilletLibrary.MC.Pris">
+            <summary>
+            returns the amount to pay.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.køretøj">
+            <summary>
+            returns the type of vehichle.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

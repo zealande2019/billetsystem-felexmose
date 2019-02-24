@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestMCClass", "UnitTest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestBaseClass", "UnitTestBaseClass\UnitTestBaseClass.csproj", "{2B8F91DA-086D-47AD-B558-843422E135D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestBroBizz", "UnitTestBroBizz\UnitTestBroBizz.csproj", "{D709C5FA-1134-4D60-A368-DA0BDED3BDC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestBroBizz", "UnitTestBroBizz\UnitTestBroBizz.csproj", "{D709C5FA-1134-4D60-A368-DA0BDED3BDC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreBaeltBilletLibrary", "StoreBaeltBilletLibrary\StoreBaeltBilletLibrary.csproj", "{48697FE1-42D3-45EA-A3AC-8495577A0FB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D709C5FA-1134-4D60-A368-DA0BDED3BDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D709C5FA-1134-4D60-A368-DA0BDED3BDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D709C5FA-1134-4D60-A368-DA0BDED3BDC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48697FE1-42D3-45EA-A3AC-8495577A0FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48697FE1-42D3-45EA-A3AC-8495577A0FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48697FE1-42D3-45EA-A3AC-8495577A0FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48697FE1-42D3-45EA-A3AC-8495577A0FB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

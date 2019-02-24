@@ -7,6 +7,10 @@ namespace BilletLibrary
         //public string Nummerplade;
         //public DateTime Dato;
         
+            /// <summary>
+            /// opretter en bil objekt med info om hvorvidt brobizz haves.
+            /// </summary>
+            /// <param name="broBizz"></param>
         public bil(Boolean broBizz)
         {
             this.broBizz = broBizz;
