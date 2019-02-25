@@ -34,5 +34,20 @@ namespace UnitTestBilClass
             //assert
             Assert.AreEqual("Bil", word);
         }
+
+        [TestMethod]
+        public void TestMethodPrisWeekendRabat()
+        {
+            //arrange
+            bool brobizz = false;
+            bil myCar = new bil(brobizz);
+           
+            //act
+            decimal pris = myCar.Pris();
+
+            //assert
+            Assert.AreEqual(Convert.ToDecimal(240), pris);
+        }
+
     }
 }

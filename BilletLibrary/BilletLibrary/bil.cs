@@ -2,6 +2,9 @@
 
 namespace BilletLibrary
 {
+    /// <summary>
+    /// bil klassen med nedarvning fra baseklassen.
+    /// </summary>
     public class bil : baseklasse
     {
         //public string Nummerplade;
@@ -22,14 +25,22 @@ namespace BilletLibrary
         /// <returns></returns>
         public override decimal Pris()
         {
+            decimal prisen = 240;
+
+            //DayOfWeek day = dato.DayOfWeek;
+            //string dayToday = day.ToString();
+            if ((dato.DayOfWeek.ToString() == "Saturday") || (dato.DayOfWeek.ToString() == "Sunday"))
+            {
+                prisen = Convert.ToDecimal(0.80) * 240;
+            }   
             if (broBizz == true)
             {
-                decimal rabat = Convert.ToDecimal(0.95) * 240;
+                decimal rabat = Convert.ToDecimal(0.95) * prisen;
                 return rabat;
             }
             else
 
-                return 240;
+                return prisen;
         }
 
         /// <summary>

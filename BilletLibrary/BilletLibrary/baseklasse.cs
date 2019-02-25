@@ -29,7 +29,7 @@ namespace BilletLibrary
         /// <summary>
         /// property til at indholde dato og tidspunkt for en givne transaction.
         /// </summary>
-        protected DateTime dato;
+        protected DateTime dato = DateTime.Now;
 
         /// <summary>
         /// property der siger noget om, en givne køretøj har bro bizz eller ej.

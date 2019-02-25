@@ -4,6 +4,9 @@ using System.Text;
 
 namespace BilletLibrary
 {
+    /// <summary>
+    /// MC klassen med nedarvning fra baseklasse.
+    /// </summary>
     public class MC : baseklasse
     {
         //public string Nummerplade;

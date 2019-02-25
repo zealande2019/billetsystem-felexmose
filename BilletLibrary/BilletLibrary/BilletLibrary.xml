@@ -24,6 +24,11 @@
             property der siger noget om, en givne køretøj har bro bizz eller ej.
             </summary>
         </member>
+        <member name="T:BilletLibrary.bil">
+            <summary>
+            bil klassen med nedarvning fra baseklassen.
+            </summary>
+        </member>
         <member name="M:BilletLibrary.bil.#ctor(System.Boolean)">
             <summary>
             opretter en bil objekt med info om hvorvidt brobizz haves.
@@ -41,6 +46,11 @@
             returns the type of vehichle.
             </summary>
             <returns></returns>
+        </member>
+        <member name="T:BilletLibrary.MC">
+            <summary>
+            MC klassen med nedarvning fra baseklasse.
+            </summary>
         </member>
         <member name="M:BilletLibrary.MC.#ctor(System.Boolean)">
             <summary>
