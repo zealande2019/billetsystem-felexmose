@@ -7,9 +7,6 @@ namespace BilletLibrary
     /// </summary>
     public class bil : baseklasse
     {
-        //public string Nummerplade;
-        //public DateTime Dato;
-        
             /// <summary>
             /// opretter en bil objekt med info om hvorvidt brobizz haves.
             /// </summary>
